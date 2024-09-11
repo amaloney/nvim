@@ -51,7 +51,7 @@ return {
         c = { bg = colors.inactive_bg, fg = colors.semilightgray },
       },
     }
-  
+
     -- configure lualine with modified theme
     lualine.setup({
       options = {
