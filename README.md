@@ -1,2 +1,3 @@
-# nvim
-My Neovim setup
+# My `nvim` setup
+
+Culled from various sources.
