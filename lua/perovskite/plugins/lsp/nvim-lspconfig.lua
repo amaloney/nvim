@@ -60,12 +60,12 @@ return {
       on_attach = on_attach,
     })
     -- configure typescript server with plugin
-    lspconfig["tsserver"].setup({
+    lspconfig["ts_ls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
     })
     -- configure css server
-    lspconfig["cssls"].setup({
+    lspconfig["tailwindcss"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
     })

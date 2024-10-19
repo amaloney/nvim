@@ -83,7 +83,7 @@ autocmd("Filetype", {
     "xml",
     "yaml",
   },
-  command = "setlocal shiftwidth=2 tabstop=2 softtabstop=2 expandtab",
+  command = "setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab",
 })
 
 vim.cmd([[autocmd VimEnter * Neotree toggle left]])
