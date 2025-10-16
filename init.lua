@@ -9,7 +9,7 @@ vim.opt.backup = false
 vim.opt.breakindent = true
 --vim.opt.clipboard = "unnamedplus"
 vim.opt.cmdheight = 1
-vim.opt.colorcolumn = "101"
+vim.opt.colorcolumn = {95, 99, 103, 121, 166}
 vim.opt.completeopt = { "menuone", "preview", "noinsert", "noselect" }
 vim.opt.conceallevel = 0
 vim.opt.cursorline = true
@@ -37,7 +37,7 @@ vim.opt.spell = true
 vim.opt.spelllang = "en_us"
 vim.opt.swapfile = false
 vim.opt.tabstop = 4
-vim.opt.textwidth = 100
+vim.opt.textwidth = 120
 vim.opt.timeoutlen = 1000
 vim.opt.undofile = true
 vim.opt.updatetime = 300
@@ -55,7 +55,7 @@ keymap("n", "<C-l>", "<CMD>tabn<CR>", options)
 keymap("n", "<C-n>", "<CMD>tabnew<CR>", options)
 keymap("n", "<leader>h", "<CMD>nohlsearch<CR>", options)
 keymap("n", "<leader>bs", "<CMD>JABSOpen<CR>", options)
-keymap("n", "<leader>dd", "<CMD>DogeGenerate<CR>", options)
+-- keymap("n", "<leader>dd", "<CMD>DogeGenerate<CR>", options)
 
 local augroup = vim.api.nvim_create_augroup
 local autocmd = vim.api.nvim_create_autocmd
